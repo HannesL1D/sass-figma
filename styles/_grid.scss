@@ -1,0 +1,78 @@
+.grid__section {
+    max-width: 1100px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid__container {
+    max-width: 1100px;
+    width: 100%;
+    display: grid;
+    min-height: 300px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(31, 1fr);
+    grid-gap: 10px; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.grid {
+    &__image-first {
+    grid-row: 1 / 7;
+    grid-column: 1 / 4;
+    }
+    &__image-second {
+        grid-row: 7 / 15;
+        grid-column: 1 / 4;
+    }
+    &__image-third {
+        grid-row: 15 / 23;
+        grid-column: 1 / 4;
+    }
+    &__image-fourth {
+        grid-row: 23 / 32;
+        grid-column: 1 / 4;
+    }
+    &__image-fifth {
+        grid-row: 1 / 6;
+        grid-column: 4 / 7;
+    }
+    &__image-sixth {
+        grid-row: 6 / 13;
+        grid-column: 4 / 7;
+    }
+    &__image-seventh {
+        grid-row: 13 / 22;
+        grid-column: 4 / 7;
+    }
+    &__image-eighth {
+        grid-row: 22 / 32;
+        grid-column: 4 / 7;
+    }
+    &__image-ninth {
+        grid-row: 1 / 11;
+        grid-column: 7 / 10;
+    }
+    &__image-tenth {
+        grid-row: 11 / 18;
+        grid-column: 7 / 10;
+    }
+    &__image-eleventh {
+        grid-row: 18 / 26;
+        grid-column: 7 / 10;
+    }
+    &__image-twelfth {
+        grid-row: 26 / 32;
+        grid-column: 7 / 10;
+    }
+
+}

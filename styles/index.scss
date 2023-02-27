@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Muli', sans-serif;
+  }
+
+@import 'header';
+@import 'main';
+@import 'grid';
+@import 'footer';
